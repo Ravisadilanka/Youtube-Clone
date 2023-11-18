@@ -8,7 +8,7 @@ export function PageHeader() {
 
     return (
         <div className="flex gap-10 lg:gap-20 justify-between pt-2 mb-6 mx-4">
-            <div className={`gap-4 items-center flex-shrink-0 ${showFullWidthSearch ? "hidden" : "flex"}`}>
+            <div className={`gap-5 items-center flex-shrink-0 ${showFullWidthSearch ? "hidden" : "flex"}`}>
                 <Button variant="ghost" size="icon">
                     <Menu />
                 </Button>
